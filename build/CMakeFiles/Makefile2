@@ -768,8 +768,8 @@ CMakeFiles/ContinuousUpdate.dir/clean:
 # Target rules for target CMakeFiles/math_tool.dir
 
 # All Build rule for target.
-CMakeFiles/math_tool.dir/all: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/all
 CMakeFiles/math_tool.dir/all: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/math_tool.dir/all: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\math_tool.dir\build.make CMakeFiles/math_tool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\math_tool.dir\build.make CMakeFiles/math_tool.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kelson\Documents\Projects\math_tool\build\CMakeFiles --progress-num=23,24,25 "Built target math_tool"
