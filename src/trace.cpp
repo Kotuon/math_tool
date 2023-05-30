@@ -35,6 +35,7 @@ Trace &Trace::Instance() {
  *
  * @param message Message to be printed
  * @param filename Should always be FILENAME
+ * @param linenumber Should always be LINENUMBER
  * @return void
  */
 void Trace::Message( std::string message, std::string filename, int linenumber ) {

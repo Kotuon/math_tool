@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kelson\Documents\Projects\lerp_thing\JUCE\modules\juce_audio_plugin_client\LV2\juce_LV2TurtleDumpProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kelson\Documents\Projects\lerp_thing\JUCE\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8D91FAC-D0D5-3F42-85EC-117D93009117}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

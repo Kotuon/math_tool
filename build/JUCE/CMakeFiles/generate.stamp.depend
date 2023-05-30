@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/BasicConfigVersion-ExactVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/CMakeLists.txt
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEConfig.cmake.in
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEUtils.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/cmake.verify_globs

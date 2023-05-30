@@ -1,112 +1,92 @@
-/**
- * @file main.cpp
- * @author Kelson Wysocki (kelson.wysocki@gmail.com)
- * @brief
- * @version 0.1
- * @date 2023-05-29
- *
- *
- *
- */
+#include "MainComponent.h"
 
-#include "raylib.h"
-#include "rlgl.h"
-#include "raymath.h"
+//==============================================================================
+class GuiAppApplication : public juce::JUCEApplication {
+public:
+    //==============================================================================
+    GuiAppApplication() {}
 
-#include "trace.hpp"
+    // We inject these as compile definitions from the CMakeLists.txt
+    // If you've enabled the juce header with `juce_generate_juce_header(<thisTarget>)`
+    // you could `#include <JuceHeader.h>` and use `ProjectInfo::projectName` etc. instead.
+    const juce::String getApplicationName() override { return JUCE_APPLICATION_NAME_STRING; }
+    const juce::String getApplicationVersion() override { return JUCE_APPLICATION_VERSION_STRING; }
+    bool moreThanOneInstanceAllowed() override { return true; }
 
-void DrawGrid( const Camera2D &camera, const int screenWidth, const int screenHeight ) {
-    int left_most_view = camera.target.x - ( screenWidth / camera.zoom );
-    int right_most_view = camera.target.x + ( screenWidth / camera.zoom );
+    //==============================================================================
+    void initialise( const juce::String &commandLine ) override {
+        // This method is where you should put your application's initialisation code..
+        juce::ignoreUnused( commandLine );
 
-    int top_most_view = camera.target.y - ( screenHeight / camera.zoom );
-    int bottom_most_view = camera.target.y + ( screenHeight / camera.zoom );
-
-    for ( int i = left_most_view; i <= right_most_view; i += 10 ) {
-        i /= 10;
-        i *= 10;
-        DrawLine( i, bottom_most_view, i, top_most_view, DARKGRAY );
+        mainWindow.reset( new MainWindow( getApplicationName() ) );
     }
 
-    for ( int i = top_most_view; i <= bottom_most_view; i += 10 ) {
-        i /= 10;
-        i *= 10;
-        DrawLine( left_most_view, i, right_most_view, i, DARKGRAY );
+    void shutdown() override {
+        // Add your application's shutdown code here..
+
+        mainWindow = nullptr; // (deletes our window)
     }
 
-    DrawLineV( Vector2{ static_cast< float >( left_most_view ), 0 }, Vector2{ static_cast< float >( right_most_view ), 0 }, WHITE );
-    DrawLineV( Vector2{ 0, static_cast< float >( bottom_most_view ) }, Vector2{ 0, static_cast< float >( top_most_view ) }, WHITE );
-}
+    //==============================================================================
+    void systemRequestedQuit() override {
+        // This is called when the app is being asked to quit: you can ignore this
+        // request and let the app carry on running, or call quit() to allow the app to close.
+        quit();
+    }
 
-int main( int, char ** ) {
-    // Initialization
-    //--------------------------------------------------------------------------------------
-    const int screenWidth = 1280;
-    const int screenHeight = 720;
+    void anotherInstanceStarted( const juce::String &commandLine ) override {
+        // When another instance of the app is launched while this one is running,
+        // this method is invoked, and the commandLine parameter tells you what
+        // the other instance's command-line arguments were.
+        juce::ignoreUnused( commandLine );
+    }
 
-    InitWindow( screenWidth, screenHeight, "math_tool" );
+    //==============================================================================
+    /*
+        This class implements the desktop window that contains an instance of
+        our MainComponent class.
+    */
+    class MainWindow : public juce::DocumentWindow {
+    public:
+        explicit MainWindow( juce::String name )
+            : DocumentWindow( name,
+                              juce::Desktop::getInstance().getDefaultLookAndFeel().findColour( ResizableWindow::backgroundColourId ),
+                              DocumentWindow::allButtons ) {
+            setUsingNativeTitleBar( true );
+            setContentOwned( new MainComponent(), true );
 
-    Trace::Instance().Message( "I am here.", FILENAME, LINENUMBER );
+#if JUCE_IOS || JUCE_ANDROID
+            setFullScreen( true );
+#else
+            setResizable( true, true );
+            centreWithSize( getWidth(), getHeight() );
+#endif
 
-    Camera2D camera = { 0 };
-    camera.target = Vector2{ -screenWidth / 2, -screenHeight / 2 };
-    camera.zoom = 1.f;
-
-    SetTargetFPS( 60 ); // Set our game to run at 60 frames-per-second
-    //--------------------------------------------------------------------------------------
-
-    // Main game loop
-    while ( !WindowShouldClose() ) // Detect window close button or ESC key
-    {
-        // Update
-        //----------------------------------------------------------------------------------
-        if ( IsMouseButtonDown( MOUSE_BUTTON_RIGHT ) ) {
-            Vector2 delta = GetMouseDelta();
-            delta = Vector2Scale( delta, -1.0f / camera.zoom );
-
-            camera.target = Vector2Add( camera.target, delta );
+            setVisible( true );
         }
 
-        // Zoom based on mouse wheel
-        float wheel = GetMouseWheelMove();
-        if ( wheel != 0 ) {
-            // Get the world point that is under the mouse
-            Vector2 mouseWorldPos = GetScreenToWorld2D( GetMousePosition(), camera );
-
-            // Set the offset to where the mouse is
-            camera.offset = GetMousePosition();
-
-            // Set the target to match, so that the camera maps the world space point
-            // under the cursor to the screen space point under the cursor at any zoom
-            camera.target = mouseWorldPos;
-
-            // Zoom increment
-            const float zoomIncrement = 0.125f;
-
-            camera.zoom += ( wheel * zoomIncrement );
-            if ( camera.zoom < zoomIncrement ) camera.zoom = zoomIncrement;
+        void closeButtonPressed() override {
+            // This is called when the user tries to close this window. Here, we'll just
+            // ask the app to quit when this happens, but you can change this to do
+            // whatever you need.
+            JUCEApplication::getInstance()->systemRequestedQuit();
         }
-        //----------------------------------------------------------------------------------
 
-        // Draw
-        //----------------------------------------------------------------------------------
-        BeginDrawing();
+        /* Note: Be careful if you override any DocumentWindow methods - the base
+           class uses a lot of them, so by overriding you might break its functionality.
+           It's best to do all your work in your content component instead, but if
+           you really have to override any DocumentWindow methods, make sure your
+           subclass also calls the superclass's method.
+        */
 
-        ClearBackground( BLACK );
+    private:
+        JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR( MainWindow )
+    };
 
-        BeginMode2D( camera );
+private:
+    std::unique_ptr< MainWindow > mainWindow;
+};
 
-        DrawGrid( camera, screenWidth, screenHeight );
-
-        EndMode2D();
-
-        EndDrawing();
-        //----------------------------------------------------------------------------------
-    }
-
-    // De-Initialization
-    //--------------------------------------------------------------------------------------
-    CloseWindow(); // Close window and OpenGL context
-    //--------------------------------------------------------------------------------------
-    return 0;
-}
+//==============================================================================
+// This macro generates the main() routine that launches the app.
+START_JUCE_APPLICATION( GuiAppApplication )

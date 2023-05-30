@@ -1,0 +1,8 @@
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/juce_lv2_helper.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/modules/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/juceaide.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/INSTALL.dir
