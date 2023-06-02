@@ -19,6 +19,10 @@ MainComponent::MainComponent() {
     setFramesPerSecond( 60 );
 
     addAndMakeVisible( side_panel.GetButton() );
+
+    for ( unsigned i = 0; i < max_control_points; ++i ) {
+        control_points.push_back( ControlPoint( { static_cast< double >( i * ( ( window_width - ( 2 * padding ) ) / 3 ) + padding ), static_cast< double >( padding ) } ) );
+    }
 }
 
 //==============================================================================
@@ -111,8 +115,8 @@ void MainComponent::mouseDrag( const juce::MouseEvent &event ) {
 
     juce::Point< double > mouse_position{ static_cast< double >( event.position.x ), static_cast< double >( event.position.y ) };
 
-    juce::Point< double > new_control_point_position{ std::clamp< double >( mouse_position.x, 0, static_cast< double >( window_width ) ),
-                                                      std::clamp< double >( mouse_position.y, 0, static_cast< double >( window_height ) ) };
+    juce::Point< double > new_control_point_position{ selected_control_point->position.x,
+                                                      std::clamp< double >( mouse_position.y, padding, static_cast< double >( window_height - padding ) ) };
 
     selected_control_point->position = new_control_point_position;
 }

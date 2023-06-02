@@ -74,6 +74,7 @@ struct ControlPoint {
     double time_to_animate_when_selected;
     double time_since_selected;
 
+    bool hovered;
     bool selected;
 };
 
