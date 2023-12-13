@@ -1,9 +1,3 @@
-C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/math_tool.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/INSTALL.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/CMakeFiles/INSTALL.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/CMakeFiles/ALL_BUILD.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/modules/CMakeFiles/INSTALL.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/extras/Build/CMakeFiles/INSTALL.dir
-C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/extras/Build/juceaide/CMakeFiles/INSTALL.dir
+version https://git-lfs.github.com/spec/v1
+oid sha256:760d3d966a8579a380c7fb1992fbbfa0bb49c6d28f4b7db2e875a3912aaacb2d
+size 752

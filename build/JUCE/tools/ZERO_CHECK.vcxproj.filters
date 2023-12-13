@@ -1,13 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\CMakeFiles\15a1c924001fdccf08ae894f8f84526f\generate.stamp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="CMake Rules">
-      <UniqueIdentifier>{22BE060E-8269-3DD0-B57F-20B19C56D9F5}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-</Project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d4f31eba2c8a9b684798317d5262a94e3c5941c7f873ac7e6992e6acb471adc
+size 553

@@ -1,2 +1,3 @@
-PlatformToolSet=v142:VCToolArchitecture=Native64Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
-Debug|win32|C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\extras\Build\juceaide\|
+version https://git-lfs.github.com/spec/v1
+oid sha256:f49941e25b68af093b7f9799f316cfc1b9eacb67025263d28df21f9dde1aee48
+size 213
