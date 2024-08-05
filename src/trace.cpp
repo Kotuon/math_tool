@@ -35,12 +35,13 @@ Trace &Trace::Instance() {
  *
  * @param message Message to be printed
  * @param filename Should always be FILENAME
+ * @param linenumber Should always be LINENUMBER
  * @return void
  */
 void Trace::Message( std::string message, std::string filename, int linenumber ) {
     if ( !trace_stream ) return;
 
-    std::string output = filename.substr( 4, std::string::npos ) + "( " + std::to_string( linenumber ) + " )" + ": " + message;
+    std::string output = filename.substr( 0, std::string::npos ) + "( " + std::to_string( linenumber ) + " )" + ": " + message;
 
     trace_stream << output << std::endl;
     std::cout << output << std::endl;
