@@ -6,7 +6,6 @@
 * [Technology Used](#technology-used)
 * [Requirements](#requirements)
 * [Features](#features)
-* [References](#references)
 
 ## Introduction
 
