@@ -1,5 +1,5 @@
 # Bezier Curve Graphing Calculator
-![](https://github.com/Kotuon/math_tool/main/math_tool_gif.gif)
+![](https://github.com/Kotuon/math_tool/blob/main/math_tool_gif.gif)
 
 ## Table of Contents
 * [Introduction](#introduction)
