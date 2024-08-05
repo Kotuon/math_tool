@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e8b50a547dae5733e2d2adce5fa41c793d2f9e8852a2ec3ce6c3b3a35bc8fe3a
-size 200
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "JUCE/extras/Build",
+		"source" : "JUCE/extras/Build"
+	}
+}

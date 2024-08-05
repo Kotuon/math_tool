@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1600c4b0124df46c9018e85b735cd57dc9d6446d5cb0c0dc6509a49db99cfb9
-size 513
+^C:\USERS\KELSON\DOCUMENTS\PROJECTS\MATH_TOOL\JUCE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kelson/Documents/Projects/math_tool/JUCE -BC:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools --check-stamp-file C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

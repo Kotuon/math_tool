@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ab8830cc098c71fb8d6007196b9059a68f8140cf5752dd62d19bcaa41698428
-size 311
+# CMake generation dependency list for this directory.
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/juceaide/CMakeLists.txt
+C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/cmake.verify_globs
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/JUCEToolsExport.cmake

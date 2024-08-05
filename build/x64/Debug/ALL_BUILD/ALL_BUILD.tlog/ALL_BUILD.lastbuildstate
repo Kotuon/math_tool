@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00896c0cb80167505c1f0cb3aced7079d4712a0513712d724fc0a9c1e32004e5
-size 180
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.37.32822:TargetPlatformVersion=10.0.22621.0:
+Debug|x64|C:\Users\Kelson\Documents\Projects\math_tool\build\|

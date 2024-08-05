@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90c4052d180103c9358735cac6ceb74f77dfb884b9bd0f2498b60bc6adf1a994
-size 83
+C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Microsoft/VC/v170

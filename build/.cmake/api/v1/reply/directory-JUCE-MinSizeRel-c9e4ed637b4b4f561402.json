@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7684309f3d1c67c59f9e0f7ebd715a1282d2401094b7b5ee9a95212aa992ef9
-size 1424
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"JUCE/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-7.0.5",
+			"paths" : 
+			[
+				"build/JUCE/JUCEConfigVersion.cmake",
+				"build/JUCE/JUCEConfig.cmake",
+				"JUCE/extras/Build/CMake/JUCECheckAtomic.cmake",
+				"JUCE/extras/Build/CMake/JUCEHelperTargets.cmake",
+				"JUCE/extras/Build/CMake/JUCEModuleSupport.cmake",
+				"JUCE/extras/Build/CMake/JUCEUtils.cmake",
+				"JUCE/extras/Build/CMake/JuceLV2Defines.h.in",
+				"JUCE/extras/Build/CMake/LaunchScreen.storyboard",
+				"JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in",
+				"JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in",
+				"JUCE/extras/Build/CMake/PIPComponent.cpp.in",
+				"JUCE/extras/Build/CMake/PIPConsole.cpp.in",
+				"JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib",
+				"JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in",
+				"JUCE/extras/Build/CMake/checkBundleSigning.cmake",
+				"JUCE/extras/Build/CMake/copyDir.cmake",
+				"JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "JUCE",
+		"source" : "JUCE"
+	}
+}

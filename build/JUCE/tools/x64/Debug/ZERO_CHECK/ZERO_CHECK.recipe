@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a6b817d70436ae3c65ece9b884a744fd0ea82d6b025d7f3b875578de5e97ab4c
-size 325
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

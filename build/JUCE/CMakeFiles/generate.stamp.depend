@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0b1cae2abdc82bcf475597e08a8836a20e5f9c62180d008a27e4f63612abcef
-size 990
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/CMakeLists.txt
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEConfig.cmake.in
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/JUCE/extras/Build/CMake/JUCEUtils.cmake
+C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/cmake.verify_globs

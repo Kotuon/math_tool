@@ -1,3 +1,469 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c477f9201cfb3d38b4a4824f67f2098359e6fd27c5c051975190cf791f5804ca
-size 9514
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "math_tool_artefacts/MinSizeRel/math_tool.exe"
+		},
+		{
+			"path" : "math_tool_artefacts/MinSizeRel/math_tool.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"juce_add_gui_app",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"_juce_initialise_target",
+			"target_sources",
+			"_juce_add_resources_rc",
+			"_juce_configure_app_bundle"
+		],
+		"files" : 
+		[
+			"JUCE/extras/Build/CMake/JUCEUtils.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1755,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1758,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1759,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1715,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1763,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 701,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 692,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APPLICATION_NAME_STRING=\"math_tool\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APPLICATION_VERSION_STRING=\"0.0.1\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_core=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_data_structures=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_events=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_graphics=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_basics=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_extra=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_STANDALONE_APPLICATION=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_USE_CURL=0"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_WEB_BROWSER=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NDEBUG=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_NDEBUG=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Kelson/Documents/Projects/math_tool/build/math_tool_artefacts/JuceLibraryCode"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Kelson/Documents/Projects/math_tool/JUCE/modules"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/Ox"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/EHsc"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/W4"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APPLICATION_NAME_STRING=\"math_tool\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APPLICATION_VERSION_STRING=\"0.0.1\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_core=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_data_structures=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_events=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_graphics=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_basics=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_extra=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_STANDALONE_APPLICATION=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_USE_CURL=0"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_WEB_BROWSER=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NDEBUG=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_NDEBUG=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Kelson/Documents/Projects/math_tool/build/math_tool_artefacts/JuceLibraryCode"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Kelson/Documents/Projects/math_tool/JUCE/modules"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "math_tool::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:windows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_gui_extra\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_gui_basics\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_graphics\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_events\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_core\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\Users\\Kelson\\Documents\\Projects\\math_tool\\JUCE\\modules\\juce_data_structures\\libs\\VisualStudio2022\\x64\\MDd",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "math_tool",
+	"nameOnDisk" : "math_tool.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/math_tool_artefacts/JuceLibraryCode/resources.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "src/MainComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "src/trace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/7dfa8a2156d905727e95bd704f828703/resources.rc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_gui_extra/juce_gui_extra.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_gui_basics/juce_gui_basics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_graphics/juce_graphics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_events/juce_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_core/juce_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "JUCE/modules/juce_data_structures/juce_data_structures.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ff53165e89cb9cbb8cad2c73f77d2545da8f5f5b856a4283684b905b3bca16f
-size 350
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\CMakeFiles\3.28.0-rc3\x64\Debug\VCTargetsPath</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

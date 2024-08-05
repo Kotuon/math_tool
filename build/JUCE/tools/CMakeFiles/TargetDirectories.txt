@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1bb9c89eb28fa57d916ff7b9245bbc9372db2d0c3120c2451628c6345cec459d
-size 767
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/juce_lv2_helper.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/modules/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/CMakeFiles/INSTALL.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/juceaide.dir
+C:/Users/Kelson/Documents/Projects/math_tool/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/INSTALL.dir

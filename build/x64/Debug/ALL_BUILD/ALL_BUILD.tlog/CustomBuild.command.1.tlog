@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe2ec8945c1de21443df02070aab9d45d606d06284f6f470e383bc9aca85cc1f
-size 481
+^C:\USERS\KELSON\DOCUMENTS\PROJECTS\MATH_TOOL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kelson/Documents/Projects/math_tool -BC:/Users/Kelson/Documents/Projects/math_tool/build --check-stamp-file C:/Users/Kelson/Documents/Projects/math_tool/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

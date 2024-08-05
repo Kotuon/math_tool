@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fdc5f566648a3011eebadaace5a7cf0791d444428ebc5bbd0cbd73042ae2111a
-size 830
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\Debug\juce_lv2_helper.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\extras\Build\juceaide\juceaide_artefacts\Debug\juceaide.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

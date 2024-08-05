@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c048e67939bbf9499807fe3bd08741b6c00bf92b417047f0af201a205583687f
-size 202
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.37.32822:TargetPlatformVersion=10.0.22621.0:
+Debug|x64|C:\Users\Kelson\Documents\Projects\math_tool\build\CMakeFiles\3.28.0-rc3\|

@@ -1,12 +1,12 @@
 /**
  * @file trace.hpp
  * @author Kelson Wysocki (kelson.wysocki@gmail.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2023-05-29
- * 
- * 
- * 
+ *
+ *
+ *
  */
 
 #pragma once
@@ -24,11 +24,12 @@
 class Trace {
 public:
     static Trace& Instance();
-    void Message( std::string message, std::string filename, int linenumber);
+    void Message( std::string message, std::string filename, int linenumber );
     ~Trace();
 
 private:
     Trace();
+
 private:
     std::fstream trace_stream; //!< Output file
 };

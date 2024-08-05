@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b8c4b2e8191e7e4fd880759745d32f792e791ba80bc93c7779a4a5cfe1171056
-size 912
+#----------------------------------------------------------------
+# Generated CMake target import file for configuration "RelWithDebInfo".
+#----------------------------------------------------------------
+
+# Commands may need to know the format version.
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+# Import target "juce::juce_lv2_helper" for configuration "RelWithDebInfo"
+set_property(TARGET juce::juce_lv2_helper APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(juce::juce_lv2_helper PROPERTIES
+  IMPORTED_LOCATION_RELWITHDEBINFO "${_IMPORT_PREFIX}/bin/JUCE-7.0.5/juce_lv2_helper.exe"
+  )
+
+list(APPEND _cmake_import_check_targets juce::juce_lv2_helper )
+list(APPEND _cmake_import_check_files_for_juce::juce_lv2_helper "${_IMPORT_PREFIX}/bin/JUCE-7.0.5/juce_lv2_helper.exe" )
+
+# Commands beyond this point should not need to know the version.
+set(CMAKE_IMPORT_FILE_VERSION)

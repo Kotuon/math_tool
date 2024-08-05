@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7194d13a9707d36435ab5913bdc3db79934c2897173c348d0111672037605b58
-size 191
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.37.32822:TargetPlatformVersion=10.0.22621.0:
+Debug|x64|C:\Users\Kelson\Documents\Projects\math_tool\build\JUCE\tools\|

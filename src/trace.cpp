@@ -22,10 +22,11 @@
  */
 Trace::Trace() {
     trace_stream.open( "trace.log", std::ofstream::out );
-    if ( !trace_stream ) std::cout << "Trace file wasn't opened successfully.\n";
+    if ( !trace_stream )
+        std::cout << "Trace file wasn't opened successfully.\n";
 }
 
-Trace &Trace::Instance() {
+Trace& Trace::Instance() {
     static Trace trace_instance;
     return trace_instance;
 }
@@ -39,7 +40,8 @@ Trace &Trace::Instance() {
  * @return void
  */
 void Trace::Message( std::string message, std::string filename, int linenumber ) {
-    if ( !trace_stream ) return;
+    if ( !trace_stream )
+        return;
 
     std::string output = filename.substr( 0, std::string::npos ) + "( " + std::to_string( linenumber ) + " )" + ": " + message;
 
@@ -52,5 +54,6 @@ void Trace::Message( std::string message, std::string filename, int linenumber )
  *
  */
 Trace::~Trace() {
-    if ( trace_stream ) trace_stream.close();
+    if ( trace_stream )
+        trace_stream.close();
 }

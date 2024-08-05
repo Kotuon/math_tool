@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69e0e35b485f4d957f213e120ddb38bcb874f93c017a3eedd91a0232800b59f3
-size 541
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kelson\Documents\Projects\math_tool\build\CMakeFiles\4d7cf02ad6480c3bec19c23fb06884f1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ACB32CFF-C69D-3581-AFDB-317CCD617B45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

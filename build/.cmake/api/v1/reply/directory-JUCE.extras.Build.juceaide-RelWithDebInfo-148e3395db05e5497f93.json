@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6ac231f42326943185c52fe67010e82159bfd98c883747a4b5ce11770ed5c1c4
-size 659
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"JUCE/extras/Build/juceaide/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/JUCE-7.0.5",
+			"paths" : 
+			[
+				"build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide.exe"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "JUCE/extras/Build/juceaide",
+		"source" : "JUCE/extras/Build/juceaide"
+	}
+}
