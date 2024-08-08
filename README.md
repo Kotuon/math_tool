@@ -16,7 +16,7 @@ For computing the curve, I used De Casteljau's algorithm with binomial coefficie
 ## Technology Used
 * C++
 * JUCE
-* CMAKE
+* CMake
 
 ## Requirements
 Built for Windows 10 using CMake.
