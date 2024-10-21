@@ -13,7 +13,7 @@ I created this small program to quickly visualize Bezier Curves and export the c
 
 For computing the curve, I used De Casteljau's algorithm with binomial coefficients that are calculated at the start of the program.
 
-[Check out more information on my blog](https://www.kelsonwysocki.com/post/what-i-ve-been-doing-with-c)
+[Check out more information on my blog.](https://www.kelsonwysocki.com/post/what-i-ve-been-doing-with-c)
 
 ## Technology Used
 * C++
